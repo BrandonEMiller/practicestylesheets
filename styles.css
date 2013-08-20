@@ -72,6 +72,15 @@
 
 }
 
+.lightcolor {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  border-radius: 200px;
+  background: #F2F0EC;
+
+}
+
 .gradient1 {
   display: inline-block;
   height: 80px;
@@ -89,3 +98,41 @@
   background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
 
 }
+
+
+.submainwrap {
+  margin: 0 auto;
+ min-width: 500px;
+ min-height: 200px;
+  /*margin-left: -328px;*/
+  background: blue;
+  font-family: Futura;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  line-height: 200px;
+}
+
+.shadow1 {
+text-shadow: 0 2px 0 rgb(155, 154, 154);
+font-size: 30px;
+
+}
+
+.shadow2 {
+  text-shadow: 0 2px 0 blue;
+  font-size: 30px;
+}
+
+.opaquebar {
+  width:620px;
+  height: 50px;
+  background: black;
+  opacity: 0.5;
+  
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+}
+
