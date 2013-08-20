@@ -1,127 +1,132 @@
-
-
-
-.blackbutton {
-  width: 135px;
-  height: 23px;
-  display: inline-block;
-  background: linear-gradient(to bottom, #3d3d3d 19%,#4c4c4c 82%); /* W3C */
+.button {
+  position: relative;
   border-radius: 6px;
-  box-shadow: 0 2px 0 rgb(73, 72, 72);
+  box-shadow: 0 5px 0 rgb(73, 72, 72);
+  display: inline-block;
+  background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
   margin-left: 5px;
   margin-top: 13px;
   padding: 10px;
   text-align: center;
   text-shadow: 0 2px 0 rgb(155, 154, 154);
-  color: white;
-}
-
-.silverbutton {
-  width: 278px;
-  height: 60px;
-  display: inline-block;
- background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
-  border-radius: 6px;
-  box-shadow: 0 2px 0 rgb(155, 154, 154);
-  margin-left: 10px;
-  border-radius: 8px;
-  border: 1px black;
   color: blue;
-  text-align: center;
+  -webkit-transition: all 1s ease;
+}
+
+.button:active{
+  top: 5px;
+  box-shadow: 0 0px 0 rgb(73, 72, 72);
+  -webkit-transition: all 0.5s ease;
+
+}
+
+.button .large {
+  width: 300px;
+  height: 60px;
   line-height: 60px;
+  font-size: 20px;
 }
 
-.yellowbutton {
-  width: 218px;
-  height: 50px;
-  display: inline-block;
-  background: linear-gradient(to bottom, #fcec5f 0%,#f1da36 88%); /* W3C */
-  border-radius: 6px;
-  box-shadow: 0 2px 0 rgb(155, 154, 154);
-  margin-left: 0px;
-  line-height: 50px;
-  text-align: center;
-  color: black;
+.button .medium {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
 }
 
-.grey1 {
+.button .small {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+}
+
+.swatch {
   display: inline-block;
+  }
+
+.swatch .grey1 {
   height: 80px;
   width: 80px;
-  border-radius: 200px;
+  border-radius: 200px; 
   background: #D0CDC7;
-
 }
 
-
-.grey2 {
-  display: inline-block;
+.color .grey2 {
   height: 80px;
   width: 80px;
-  border-radius: 200px;
+  border-radius: 200px; 
   background: #949090;
-
 }
 
-.darkgrey1 {
-  display: inline-block;
+.color .darkgrey1 {
   height: 80px;
   width: 80px;
-  border-radius: 200px;
+  border-radius: 200px; 
   background: #414141;
-
 }
 
-.lightcolor {
-  display: inline-block;
+.color .lightcolor {
   height: 80px;
   width: 80px;
-  border-radius: 200px;
+  border-radius: 200px; 
   background: #F2F0EC;
-
 }
 
-.gradient1 {
-  display: inline-block;
+.color .gradient1 {
   height: 80px;
   width: 80px;
-  border-radius: 200px;
+  border-radius: 200px; 
   background: linear-gradient(to bottom, #fcec5f 0%,#f1da36 88%); /* W3C */
-
 }
 
-.silvergradient1 {
-  display: inline-block;
+.color .silvergradient {
   height: 80px;
   width: 80px;
-  border-radius: 200px;
+  border-radius: 200px; 
   background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
-
 }
 
 
-.submainwrap {
+.container{
   margin: 0 auto;
  min-width: 500px;
  min-height: 200px;
-  /*margin-left: -328px;*/
-  background: blue;
   font-family: Futura;
   color: white;
   display: inline-block;
   text-align: center;
   line-height: 200px;
+  border: 1px solid red;
+    -webkit-transition: all 1s ease;
+}
+
+.container:hover {
+  -webkit-transition: all 1s ease;
+  background: blue;
+  -webkit-transform:rotate(5deg);
 }
 
 .shadow1 {
 text-shadow: 0 2px 0 rgb(155, 154, 154);
 font-size: 30px;
+  -webkit-transition: all 1s ease;
+}
 
+.shadow1:hover {
+  text-shadow: 0 2px 0 red;
+    -webkit-transition: all 1s ease;
 }
 
 .shadow2 {
   text-shadow: 0 2px 0 blue;
   font-size: 30px;
+  -webkit-transition: all 1s ease;
+}
+
+.shadow2:hover {
+  text-shadow: 0 10px 0 blue;
+  webkit-transition: all 3s ease;
 }
 
 .opaquebar {
