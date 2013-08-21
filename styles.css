@@ -1,3 +1,19 @@
+.container {
+  margin: 0 auto;
+  width: 940px;
+  border: 1px solid blue;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #F2F0EC;
+  font-family: Futura, Helvetcia, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+
 .button {
   position: relative;
   border-radius: 6px;
@@ -41,54 +57,53 @@
   font-size: 13px;
 }
 
-.swatch {
+.grey1 {
   display: inline-block;
-  }
-
-.swatch .grey1 {
   height: 80px;
   width: 80px;
   border-radius: 200px; 
   background: #D0CDC7;
+ border: 1px solid black;
 }
 
-.color .grey2 {
+.grey2 {
+  display: inline-block;
   height: 80px;
   width: 80px;
   border-radius: 200px; 
   background: #949090;
+   border: 1px solid black;
 }
 
-.color .darkgrey1 {
+.darkgrey1 {
+  display: inline-block;
   height: 80px;
   width: 80px;
   border-radius: 200px; 
   background: #414141;
+ border: 1px solid black;
 }
 
-.color .lightcolor {
-  height: 80px;
-  width: 80px;
-  border-radius: 200px; 
-  background: #F2F0EC;
-}
-
-.color .gradient1 {
+.gradient1 {
+  display: inline-block;
   height: 80px;
   width: 80px;
   border-radius: 200px; 
   background: linear-gradient(to bottom, #fcec5f 0%,#f1da36 88%); /* W3C */
+ border: 1px solid black;
 }
 
-.color .silvergradient {
+.silvergradient {
+  display: inline-block;
   height: 80px;
   width: 80px;
   border-radius: 200px; 
   background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(211,211,211,1) 47%,rgba(242,242,242,1) 100%); /* W3C */
+ border: 1px solid black;
 }
 
 
-.container{
+.containersmall{
   margin: 0 auto;
  min-width: 500px;
  min-height: 200px;
@@ -101,7 +116,7 @@
     -webkit-transition: all 1s ease;
 }
 
-.container:hover {
+.containersmall:hover {
   -webkit-transition: all 1s ease;
   background: blue;
   -webkit-transform:rotate(5deg);
