@@ -5,6 +5,9 @@
 	<title>ResitanCSS is Futile</title>
 
 	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<script src="jquery-2.0.3.min.js"></script>
+	<script src="test.js"></script>
 </head>
 <body>
 
@@ -67,6 +70,36 @@
 	<h2>Opaque Bar</h2>
 
 	<div class="opaquebar">Opaque is 0.5</div>
+
+	<h2>Modal Caller</h2>
+
+	<a href="#dialog" name="modal">To call Modal Click Here</a>
+<div id="boxes">
+    
+    
+    <div id="dialog" class="window">
+        <p>Hi, I am a modal</p>
+       
+       <xmp><a href="#dialog" name="modal">To call Modal Click Here</a>
+<div id="boxes">
+    
+    
+    <div id="dialog" class="winndow">
+        <p>Hi, I am a modal</p>
+        <a href="#" class="close">Close this sample modal</a>
+    </div>
+    
+     
+     <div id="modalBackdrop"></div>
+ </xmp>
+
+	<a href="#" class="close">Close this sample modal</a>
+    </div>
+    
+     
+     <div id="modalBackdrop"></div>
+</div>
+	
 
 	<!-- End Opaque Bar -->
 
